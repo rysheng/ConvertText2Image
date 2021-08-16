@@ -59,9 +59,6 @@ function down_all_image(){
         }
     }
 
-
-    // errorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-    // chưa xử lý xự kiện xong đã chạy vòng lặp gây tràn bộ nhớ, vẫn chưa xử lý
     var count_image = localStorage.length-1;
     while(count_image){
         var recentImageURL = localStorage.getItem(localStorage.key(count_image))
