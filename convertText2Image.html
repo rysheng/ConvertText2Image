@@ -1,0 +1,48 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+<link rel="stylesheet" href="mycss.css">
+<script src="myscript.js"></script>
+</head>
+<body align="center" >
+    <header><h1>Convert special characters to image</h1></header>
+    
+    <div id="html-content-holder">
+        <h3>Image example</h3>
+        <p id="NickName">◥꧁དℭ℟Åℤ¥༒₭ÏḼḼ℥℟ཌ꧂◤</p>
+    </div>
+
+    <div>
+        <h3>Step</h3>
+        <ol>
+            <li id='step'>Click <span>'Choose File'</span> and load file text</li>
+            <li id='step'>Click <span>'Preview'</span> to convert text to image</li>
+            <li id='step'>Click <span>'Clear LocalStorage'</span> if you want =)</li>
+            <li id='step'>Click <span>'Download'</span> to download image</li>
+            
+        </ol>
+    </div>
+
+    <table>
+        <thead>
+            <th id='tilte'>Load text</th>
+            <th id='tilte'>Preview image</th>
+            <th id><a id="btn-Convert-Html2Image" href="#" onclick="down_all_image()">Download</a></th>
+        </thead>
+        <tr>
+            <th><input type="file" id="inputfile"  onclick="read_text()"></th>
+            <th><input id="btn-Preview-Image" type="button" value="Preview" onclick="preview_all_image()"></th>
+            <th><input id="clear_localstorage" type="button" value="Clear LocalStorage" onclick="clear_localstorage()"></th>
+        </tr>
+        <tr>
+            <td><pre id="output"></pre></td>
+            <td  id="second_row"></td>
+            <td id="third_row"></td>
+        </tr>
+        
+    </table>
+
+    
+</body>
+</html>

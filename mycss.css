@@ -1,0 +1,67 @@
+#NickName {
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+  }
+
+pre{
+  text-align: center;
+  background-color: aliceblue;
+  width: fit-content;
+}
+
+H1{
+  border: 2px solid black;
+  text-align: center;
+  background-color:rgb(133, 146, 13);
+}
+
+body{
+  background: rgb(87, 207, 211);
+  background-repeat: repeat;
+  background-size: cover;
+  margin: auto;
+  font-family: "Arial"; 
+}
+
+#tilte{
+  color: black;
+}
+
+table{
+  
+  border: 2px solid blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#step{
+  color: rgb(8, 73, 8);
+  text-decoration: double;
+  text-align: left;
+}
+
+ol{
+  width: 20%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+h3{
+  border: 10px;
+  size: 100px;
+  color: purple;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: initial;
+  font-size: 150%;
+}
+
+span{
+  color: rgba(179, 20, 20, 0.904);
+  
+}
+
+#output{
+  background-color: aliceblue;
+  width: fit-content;
+}
