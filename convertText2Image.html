@@ -1,7 +1,8 @@
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 <link rel="stylesheet" href="mycss.css">
 <script src="myscript.js"></script>
 </head>
@@ -18,7 +19,7 @@
         <ol>
             <li id='step'>Click <span>'Choose File'</span> and load file text</li>
             <li id='step'>Click <span>'Preview'</span> to convert text to image</li>
-            <li id='step'>Click <span>'Clear LocalStorage'</span> if you want =)</li>
+            <li id='step'>Click <span>'Save2Storage'</span> to save Local Storage</li>
             <li id='step'>Click <span>'Download'</span> to download image</li>
             
         </ol>
@@ -33,12 +34,12 @@
         <tr>
             <th><input type="file" id="inputfile"  onclick="read_text()"></th>
             <th><input id="btn-Preview-Image" type="button" value="Preview" onclick="preview_all_image()"></th>
-            <th><input id="clear_localstorage" type="button" value="Clear LocalStorage" onclick="clear_localstorage()"></th>
+            <th><input id="clear_localstorage" type="button" value="ClearStorage" onclick="clear_localstorage()">
+                <input id="clear_localstorage" type="button" value="Save2Storage " onclick="save_localstorage()"></th>
         </tr>
         <tr>
-            <td><pre id="output"></pre></td>
-            <td  id="second_row"></td>
-            <td id="third_row"></td>
+            <th><pre id="output"></pre></td>
+            <th  id="second_row" colspan="2"></td>
         </tr>
         
     </table>
